@@ -15,7 +15,6 @@ class ApplicationController < Sinatra::Base
     
     erb :'/registrations/signup'
     
-  
   end
 
   post '/registrations' do
